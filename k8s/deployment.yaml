@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: cloud-gateway-app
-          image: alexubuntu227/cloudgateway
+          image: IMAGE_URL/cloudgateway
           imagePullPolicy: Always
           ports:
             - containerPort: 9090
